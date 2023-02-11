@@ -1,0 +1,115 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.304);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav {
+    float: right;
+    padding-right: 550px;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li {
+    float: left;
+    font-size: 15px;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: #1b42ae;
+}   
+
+.portada {
+    width: 1440px;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parrafo {
+    text-align: center;
+}
+
+.nissan-staff {
+    align-items: center;
+}
+
+.nissan-staff img {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px 1px rgba(32, 32, 32, 0.154);
+}
+
+.titulo-dos {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.nissan-vehiculos img {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px 1px rgba(32, 32, 32, 0.154);
+}
+
+.video-gtr {
+    box-shadow: 5px 5px 1px 1px rgba(32, 32, 32, 0.154);
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.nissan-patrocinadores img {
+    width: 150px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.button {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
+    margin-top: 50px;
+    margin-left: 630px;
+    margin-bottom: 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.button:hover {
+	background-color:#5cbf2a;
+}   
+
